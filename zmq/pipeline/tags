@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall$/;"	m
+CLIBS	Makefile	/^CLIBS = -lzmq -lproc$/;"	m
+COMMONH	common.h	2;"	d
+ERROR	common.h	20;"	d
+FALSE	common.h	18;"	d
+MQUEUEKEY	common.h	25;"	d
+MSGSTATUS	common.h	26;"	d
+OK	common.h	19;"	d
+SINKBIND	common.h	24;"	d
+SINKENDPOINT	common.h	23;"	d
+TRUE	common.h	17;"	d
+VENTBIND	common.h	22;"	d
+VENTENDPOINT	common.h	21;"	d
+_GNU_SOURCE	common.h	3;"	d
+count	common.h	/^	long int	count[256];$/;"	m	struct:st_msg
+main	sink.c	/^main(void)$/;"	f
+main	stats.c	/^main(void)$/;"	f
+main	ventilator.c	/^main(int argc, char *argv[])$/;"	f
+main	worker.c	/^main(void)$/;"	f
+msgtype	common.h	/^	long int	msgtype;$/;"	m	struct:st_msg
+s_recv	common.c	/^s_recv(void *socket, char **ret)$/;"	f
+s_send	common.c	/^s_send(void *socket, char *string)$/;"	f
+set_socket_timeout	common.c	/^set_socket_timeout(void *socket)$/;"	f
+sighandler	common.c	/^sighandler(int signo)$/;"	f
+signaled	common.c	/^int	 signaled = 0;$/;"	v
+st_msg	common.h	/^typedef struct st_msg {$/;"	s
+stats	sink.c	/^stmsg		 stats;$/;"	v
+stmsg	common.h	/^} stmsg;$/;"	t	typeref:struct:st_msg
+timeout	common.c	/^int	 timeout = 1000;$/;"	v
+write_stats	sink.c	/^write_stats()$/;"	f
